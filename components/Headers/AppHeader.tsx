@@ -13,7 +13,7 @@ const AppHeader = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="">
+    <header className="relative z-20">
       <div className="px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <img src="/logo-white.svg" alt="SmoothRent" className="h-20 w-auto" />
@@ -68,13 +68,13 @@ const AppHeader = () => {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden border-t">
+        <div className="md:hidden border-t bg-black/90 backdrop-blur">
           <nav className="px-4 py-3 space-y-2">
             {navLinks.map((l) => (
               <Link
                 key={l.label}
                 href={l.href}
-                className="block px-2 py-2 rounded-md text-sm font-medium text-gray-700 hover:bg-gray-50"
+                className="block px-2 py-2 rounded-md text-sm font-medium text-gray-200 hover:bg-white/10"
                 onClick={() => setOpen(false)}
               >
                 {l.label}

@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="relative rounded-2xl">
         <AppHeader />
         {/* Overlay */}
-        <div className="absolute inset-0 z-0 rounded-2xl" />
+        <div className="absolute inset-0 z-0 rounded-2xl pointer-events-none" />
         <section className="h-full relative z-10 max-w-7xl mx-auto pt-36 md:pt-36">
           <div className="md:w-1/2 mx-auto">
             <div>

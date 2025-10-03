@@ -3,7 +3,7 @@ import { BadgeCheck, ShieldCheck, Wallet, Rocket } from "lucide-react";
 
 const About = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-24">
+    <div className="max-w-7xl mx-auto px-4 py-24" id="why">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
         <div>
           <img src="/home3.png" />

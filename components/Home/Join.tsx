@@ -3,7 +3,7 @@ import Waitlist from "../Forms/Waitlist";
 
 const Join = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-24">
+    <div className="max-w-7xl mx-auto px-4 py-24" id="join">
       <div>
         <h2 className="text-3xl md:text-6xl font-semibold tracking-tight text-center">
           Join the SmoothRent List

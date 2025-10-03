@@ -19,7 +19,7 @@ const categories = [
 
 const Looking = () => {
   return (
-    <div className="bg-[#F7F5FD]">
+    <div className="bg-[#F7F5FD]" id="looking">
       <section className="max-w-7xl mx-auto px-4 py-24">
         <h2 className="text-4xl md:text-5xl text-center font-semibold tracking-tight">
           Are you looking for:
