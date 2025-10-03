@@ -26,7 +26,7 @@ const Hero = () => {
                 safe, and rewarding.
               </p>
               <div className="flex justify-center items-center space-x-4 pt-4">
-                <Link href="/properties">
+                <Link href="/#why">
                   <Button
                     className="px-12 bg-[#F8D57E] text-black hover:text-black hover:bg-[#e6c85c] border-0"
                     size="xl"
