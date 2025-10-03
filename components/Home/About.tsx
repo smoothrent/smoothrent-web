@@ -1,5 +1,12 @@
 import React from "react";
-import { BadgeCheck, ShieldCheck, Wallet, Rocket } from "lucide-react";
+import {
+  BadgeCheck,
+  ShieldCheck,
+  Wallet,
+  Rocket,
+  CreditCard,
+  Gift,
+} from "lucide-react";
 
 const About = () => {
   return (
@@ -74,6 +81,34 @@ const About = () => {
                 <p className="text-sm text-gray-600">
                   Smart matching, qualified leads, and streamlined workflows for
                   speed.
+                </p>
+              </div>
+            </div>
+
+            {/* New: Flexible payments */}
+            <div className="flex items-start gap-4 p-5 border rounded-xl hover:shadow-sm transition">
+              <div className="p-2 rounded-lg bg-blue-50 text-blue-600">
+                <CreditCard className="w-6 h-6" aria-hidden="true" />
+              </div>
+              <div>
+                <h3 className="font-semibold">Flexible payments</h3>
+                <p className="text-sm text-gray-600">
+                  Flexible options that fit your cash flow—split, schedule, and
+                  stay on track.
+                </p>
+              </div>
+            </div>
+
+            {/* New: Earn on referral incentives */}
+            <div className="flex items-start gap-4 p-5 border rounded-xl hover:shadow-sm transition">
+              <div className="p-2 rounded-lg bg-pink-50 text-pink-600">
+                <Gift className="w-6 h-6" aria-hidden="true" />
+              </div>
+              <div>
+                <h3 className="font-semibold">Earn on referral incentives</h3>
+                <p className="text-sm text-gray-600">
+                  Invite friends or partners and earn rewards when they join or
+                  transact.
                 </p>
               </div>
             </div>

@@ -110,7 +110,7 @@ const AppFooter = () => {
                 href="mailto:hello@smoothrent.com"
                 className="text-white/90 hover:text-indigo-600"
               >
-                hello@smoothrent.com
+                {/* hello@smoothrent.com */}
               </a>
             </div>
           </div>

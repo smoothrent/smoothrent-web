@@ -9,11 +9,11 @@ import {
 } from "lucide-react";
 
 const categories = [
-  { label: "Home", icon: Home },
+  { label: "Home | Shortlets", icon: Home },
   { label: "Apartment", icon: Building2 },
-  { label: "Commercial", icon: Briefcase },
+  { label: "Commercial | Retail Shops", icon: Briefcase },
   { label: "Rent", icon: Key },
-  { label: "Halls", icon: Calendar },
+  { label: "Halls | Open space", icon: Calendar },
   { label: "New Buildings", icon: Sparkles },
 ];
 
