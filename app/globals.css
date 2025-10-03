@@ -120,6 +120,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* hero cover  */
 .hero-cover {
   position: relative;
 }
