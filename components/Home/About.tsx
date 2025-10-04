@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 py-24" id="why">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
-        <div>
+        <div className="pt-6 md:pt-16">
           <img src="/home3.png" />
         </div>
         <div className="About ">

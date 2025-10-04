@@ -9,12 +9,12 @@ import {
 } from "lucide-react";
 
 const categories = [
-  { label: "Home | Shortlets", icon: Home },
-  { label: "Apartment", icon: Building2 },
-  { label: "Commercial | Retail Shops", icon: Briefcase },
-  { label: "Rent", icon: Key },
-  { label: "Halls | Open space", icon: Calendar },
-  { label: "New Buildings", icon: Sparkles },
+  { label: "Home", icon: Home },
+  { label: "Shortlets", icon: Building2 },
+  { label: "Commercial", icon: Briefcase },
+  { label: "Retail Shops", icon: Key },
+  { label: "Halls", icon: Calendar },
+  { label: "Open space", icon: Sparkles },
 ];
 
 const Looking = () => {

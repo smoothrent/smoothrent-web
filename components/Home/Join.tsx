@@ -12,7 +12,7 @@ const Join = () => {
           Enter your details to get updates and perks.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
         <div className="pt-16">
           <img src="/homeA.png" className="border border-[#" />
         </div>

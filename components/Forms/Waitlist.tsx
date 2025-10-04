@@ -22,8 +22,8 @@ const Waitlist = () => {
   }, []);
 
   return (
-    <section className="max-w-2xl mx-auto px-4 py-16">
-      <div ref={containerRef} className="mt-8" aria-live="polite" />
+    <section className="max-w-2xl mx-auto px-4 md:py-16">
+      <div ref={containerRef} className="md:mt-8" aria-live="polite" />
 
       <noscript>
         <a href={`https://smooth-rent.kit.com/${CK_UID}`}>Open the form</a>
